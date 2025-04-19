@@ -1,0 +1,96 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  background-color: #e0f7fa;
+  margin: 0;
+  padding: 20px;
+  color: #01579b;
+}
+
+#start-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#start-button {
+  padding: 20px 40px;
+  font-size: 28px;
+  border-radius: 20px;
+  background-color: #0288d1;
+  color: white;
+  border: none;
+  margin-top: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#start-button:hover {
+  background-color: #0277bd;
+}
+
+#app {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 20px;
+  max-width: 500px;
+  margin: 30px auto;
+  box-shadow: 0 0 20px rgba(0, 121, 107, 0.3);
+}
+
+h1 {
+  color: #0277bd;
+  margin-top: 0;
+}
+
+button {
+  margin: 10px;
+  padding: 18px 36px;
+  border-radius: 10px;
+  font-size: 22px;
+  cursor: pointer;
+  background-color: #0288d1;
+  color: white;
+  border: none;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #0277bd;
+}
+
+img {
+  max-width: 80%;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(2, 119, 189, 0.5);
+}
+
+input[type="text"] {
+  padding: 14px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  width: 70%;
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 28px;
+  }
+
+  button {
+    font-size: 20px;
+    padding: 14px 28px;
+  }
+
+  #start-button {
+    font-size: 26px;
+    padding: 18px 36px;
+  }
+}
